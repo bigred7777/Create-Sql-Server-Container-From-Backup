@@ -43,4 +43,4 @@ docker build -t projectName-sql-dev-image .
 docker run -d -p 1433:1433 --name projectName-sql-dev-container projectName-sql-dev-image
 ```
 ## Connect to localhost from SSMS
-Connect to the container from SSMS to verify the database
+Connect to the container from SSMS to verify the database. Note, if the host port is modified, use localhost, port-number to connect
